@@ -1,2 +1,17 @@
-/env 
-/.venv
+# Environment variables & secrets
+.env
+.env.*
+env/
+.venv/
+venv/
+ENV/
+
+# Python cache & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Operating system files
+.DS_Store
+Thumbs.db
